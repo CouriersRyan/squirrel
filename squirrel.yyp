@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"object_test","path":"objects/object_test/object_test.yy",},"order":0,},
+    {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
