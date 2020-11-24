@@ -16,13 +16,6 @@ else
 	xspeed = 0;
 }
 
-if(isJump)
-{
-	if(yspeed >= 0)
-	{
-		isJump = false;
-	}
-}
 
 if(keyboard_check(ord("A")))
 {
@@ -64,6 +57,7 @@ yspeed += yacc * delta_time / 1000000;
 
 if (place_meeting(x, y, object_floor)) {
 		yspeed = 0;
+		isJump = false;
 }
 
 y += yspeed;
