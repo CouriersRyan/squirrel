@@ -4,7 +4,6 @@
     {"id":{"name":"object_roommanager","path":"objects/object_roommanager/object_roommanager.yy",},"order":4,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":5,},
     {"id":{"name":"object_test","path":"objects/object_test/object_test.yy",},"order":0,},
-    {"id":{"name":"obj_enemy_bullet","path":"objects/obj_enemy_bullet/obj_enemy_bullet.yy",},"order":9,},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":1,},
     {"id":{"name":"obj_enemy_0","path":"objects/obj_enemy_0/obj_enemy_0.yy",},"order":6,},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"order":1,},
