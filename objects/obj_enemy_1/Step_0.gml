@@ -8,22 +8,7 @@ var dt = delta_time / 1000; //ms
 switch(_state){
 	//enemy behavior when state is follow
 	case enemy_0_state.follow:
-		vel_x = sign(target_x - x) * move_spd_x * clamp(abs(target_x - x), 0, 50)/50;
-		vel_y = sign(target_y - y) * move_spd_y * clamp(abs(target_y - y), 0, 50)/50;
-		image_xscale = sign(vel_x);
-		if(timer > 0) { 
-			timer -= dt;
-		} else if(timer <= 0){
-			enemy_target_location(p_x, p_y);
-			timer = 1000;
-			if(random_range(0, 4) > 3){
-				target_x = p_x;
-				target_y = p_y;
-				prev_x = x;
-				_state = enemy_0_state.attack;
-				sprite_index = spr_attack;
-			}
-		}
+		path_start(path_enemy_1, 4, path_action_reverse, 0);
 	break;
 	case enemy_0_state.attack:
 		vel_x = sign(target_x - x) * dive_spd_x;
