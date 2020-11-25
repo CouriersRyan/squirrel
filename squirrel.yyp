@@ -1,12 +1,15 @@
 {
   "resources": [
     {"id":{"name":"object_roommanager","path":"objects/object_roommanager/object_roommanager.yy",},"order":4,},
+    {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":5,},
     {"id":{"name":"object_test","path":"objects/object_test/object_test.yy",},"order":0,},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":1,},
+    {"id":{"name":"obj_enemy_0","path":"objects/obj_enemy_0/obj_enemy_0.yy",},"order":6,},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"order":1,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
     {"id":{"name":"object_floor","path":"objects/object_floor/object_floor.yy",},"order":2,},
     {"id":{"name":"object_player","path":"objects/object_player/object_player.yy",},"order":3,},
+    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
