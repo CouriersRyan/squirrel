@@ -1,11 +1,15 @@
 {
   "resources": [
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},"order":5,},
+    {"id":{"name":"rm_veronica","path":"rooms/rm_veronica/rm_veronica.yy",},"order":3,},
     {"id":{"name":"object_roommanager","path":"objects/object_roommanager/object_roommanager.yy",},"order":4,},
+    {"id":{"name":"rm_hansen","path":"rooms/rm_hansen/rm_hansen.yy",},"order":2,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":5,},
+    {"id":{"name":"rm_ryan","path":"rooms/rm_ryan/rm_ryan.yy",},"order":1,},
     {"id":{"name":"object_test","path":"objects/object_test/object_test.yy",},"order":0,},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":1,},
     {"id":{"name":"obj_enemy_0","path":"objects/obj_enemy_0/obj_enemy_0.yy",},"order":6,},
+    {"id":{"name":"rm_kevin","path":"rooms/rm_kevin/rm_kevin.yy",},"order":4,},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"order":1,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
     {"id":{"name":"enemy_movement","path":"scripts/enemy_movement/enemy_movement.yy",},"order":0,},
@@ -40,6 +44,10 @@
   },
   "RoomOrder": [
     {"name":"Room1","path":"rooms/Room1/Room1.yy",},
+    {"name":"rm_ryan","path":"rooms/rm_ryan/rm_ryan.yy",},
+    {"name":"rm_hansen","path":"rooms/rm_hansen/rm_hansen.yy",},
+    {"name":"rm_veronica","path":"rooms/rm_veronica/rm_veronica.yy",},
+    {"name":"rm_kevin","path":"rooms/rm_kevin/rm_kevin.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
