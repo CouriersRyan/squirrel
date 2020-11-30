@@ -20,6 +20,7 @@
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
     {"id":{"name":"enemy_movement","path":"scripts/enemy_movement/enemy_movement.yy",},"order":0,},
     {"id":{"name":"object_health","path":"objects/object_health/object_health.yy",},"order":9,},
+    {"id":{"name":"sprite_nuts","path":"sprites/sprite_nuts/sprite_nuts.yy",},"order":15,},
     {"id":{"name":"object_bullet","path":"objects/object_bullet/object_bullet.yy",},"order":7,},
     {"id":{"name":"spr_playerwalk","path":"sprites/spr_playerwalk/spr_playerwalk.yy",},"order":9,},
     {"id":{"name":"object_floor","path":"objects/object_floor/object_floor.yy",},"order":2,},
