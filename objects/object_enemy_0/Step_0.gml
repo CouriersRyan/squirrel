@@ -10,13 +10,15 @@ switch(_state){
 	case enemy_0_state.follow:
 		vel_x = sign(target_x - x) * move_spd_x * clamp(abs(target_x - x), 0, 50)/50;
 		vel_y = sign(target_y - y) * move_spd_y * clamp(abs(target_y - y), 0, 50)/50;
-		image_xscale = sign(vel_x);
+		image_xscale = sign(target_x - x);
 		if(timer > 0) { 
 			timer -= dt;
 		} else if(timer <= 0){
+			sprite_index = spr_normal;
 			enemy_target_location(p_x, p_y);
 			timer = 1000;
-			if(random_range(0, 4) > 3){
+			attack_interval--;
+			if(attack_interval <= 0){
 				target_x = p_x;
 				target_y = p_y;
 				prev_x = x;
@@ -26,18 +28,30 @@ switch(_state){
 		}
 	break;
 	case enemy_0_state.attack:
-		vel_x = sign(target_x - x) * dive_spd_x;
-		image_xscale = sign(vel_x);
+		vel_x = sign(target_x - x) * dive_spd_x * ((500 - clamp(abs(target_y - y), 0, 500))/500);
+		image_xscale = sign(target_x - x);
 		vel_y = sign(target_y - y) * dive_spd_y * clamp(abs(target_y - y), 0, 50)/50;
 		if(abs(target_x - x) < 32 && abs(target_y - y) < 32){
 			target_x = target_x + sign(x - prev_x) * avoid_distance_x;
-			target_y = target_y - 100;
+			target_y = target_y - avoid_distance_y;
 			timer = 1000;
 			_state = enemy_0_state.follow;
-			sprite_index = spr_normal;
+			attack_interval = 5;
 		}
 	break;
 }
 
-x += vel_x
-y += vel_y
+
+if(!place_meeting(x + vel_x, y + vel_y, object_solid)){
+	x += vel_x;
+	y += vel_y;
+} else {
+	x -= vel_x;
+	y -= vel_y;
+	target_x = x - move_spd_x * 3;
+	target_y = y - move_spd_y * 3;
+}
+
+if(image_xscale == 0){
+	image_xscale = 0.5;
+}

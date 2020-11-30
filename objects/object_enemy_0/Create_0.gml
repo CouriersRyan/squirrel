@@ -10,3 +10,5 @@ _state = enemy_0_state.follow;
 player = instance_nearest(x, y, object_player);
 
 timer = 0;
+
+attack_interval = 4;

@@ -17,21 +17,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_health","path":"objects/obj_health/obj_health.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
-  "properties": [
-    {"varType":5,"value":"obj_heart","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[
-        "GMObject",
-      ],"resourceVersion":"1.0","name":"heart","tags":[],"resourceType":"GMObjectProperty",},
-  ],
+  "eventList": [],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_health",
+  "name": "object_solid",
   "tags": [],
   "resourceType": "GMObject",
 }
