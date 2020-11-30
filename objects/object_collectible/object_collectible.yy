@@ -17,10 +17,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":82,"eventType":9,"collisionObjectId":null,"parent":{"name":"object_roommanager","path":"objects/object_roommanager/object_roommanager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"object_roommanager","path":"objects/object_roommanager/object_roommanager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -28,7 +25,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "object_roommanager",
+  "name": "object_collectible",
   "tags": [],
   "resourceType": "GMObject",
 }

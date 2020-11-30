@@ -21,7 +21,7 @@
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"object_health","path":"objects/object_health/object_health.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
-    {"varType":5,"value":"object_heart","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[
+    {"varType":5,"value":"obj_heart","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[
         "GMObject",
       ],"resourceVersion":"1.0","name":"heart","tags":[],"resourceType":"GMObjectProperty",},
   ],
