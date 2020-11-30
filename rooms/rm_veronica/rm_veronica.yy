@@ -15,7 +15,6 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"object_floor","path":"objects/object_floor/object_floor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":704.0,"resourceVersion":"1.0","name":"inst_40CA2D06","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"object_player","path":"objects/object_player/object_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":256.0,"resourceVersion":"1.0","name":"inst_47CF776B","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"object_floor","path":"objects/object_floor/object_floor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":704.0,"resourceVersion":"1.0","name":"inst_6B6A6404","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"object_floor","path":"objects/object_floor/object_floor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":704.0,"resourceVersion":"1.0","name":"inst_1D8D8B83","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"object_floor","path":"objects/object_floor/object_floor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":104.999992,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":704.0,"resourceVersion":"1.0","name":"inst_3FC85C3A","tags":[],"resourceType":"GMRInstance",},
@@ -33,7 +32,6 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_40CA2D06","path":"rooms/rm_veronica/rm_veronica.yy",},
-    {"name":"inst_47CF776B","path":"rooms/rm_veronica/rm_veronica.yy",},
     {"name":"inst_6B6A6404","path":"rooms/rm_veronica/rm_veronica.yy",},
     {"name":"inst_1D8D8B83","path":"rooms/rm_veronica/rm_veronica.yy",},
     {"name":"inst_3FC85C3A","path":"rooms/rm_veronica/rm_veronica.yy",},
