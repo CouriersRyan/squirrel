@@ -4,10 +4,10 @@ function player_collect(){
 	var inst = instance_place(x, y, object_collectible)
 	if(inst){
 		if(inst == object_nut){
-			global.nuts++
+			global.nuts++;
 		}
 		with(inst){
 			instance_destroy();
 		}
 	}
-}
+} 
