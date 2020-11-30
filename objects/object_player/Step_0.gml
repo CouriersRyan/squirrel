@@ -38,16 +38,20 @@ if(keyboard_check(vk_space) && !isJump)
 
 if(mouse_check_button_pressed(mb_left))
 {
+	if(global.nuts > 0)
+	{
+		if(dir = 1)
+		{
+			newBullet = instance_create_layer(x-10,y,"Instances",object_bullet);
+			newBullet.dir = 1;
+		}
+		else
+		{
+			newBullet = instance_create_layer(x+10,y,"Instances",object_bullet);
+		}
+		global.nuts--;
+	}
 	
-	if(dir = 1)
-	{
-		newBullet = instance_create_layer(x-10,y,"Instances",object_bullet);
-		newBullet.dir = 1;
-	}
-	else
-	{
-		newBullet = instance_create_layer(x+10,y,"Instances",object_bullet);
-	}
 }
 
 

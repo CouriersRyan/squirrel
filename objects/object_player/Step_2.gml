@@ -15,4 +15,5 @@ function CameraMovement()
 // sets camera position; x & y are the object position default variables
 }
 
+player_collect()
 CameraMovement();
