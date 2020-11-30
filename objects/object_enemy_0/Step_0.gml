@@ -46,10 +46,19 @@ if(!place_meeting(x + vel_x, y + vel_y, object_solid)){
 	x += vel_x;
 	y += vel_y;
 } else {
-	x -= vel_x;
-	y -= vel_y;
-	target_x = x - move_spd_x * 3;
-	target_y = y - move_spd_y * 3;
+	x -= vel_x * 3;
+	y -= vel_y * 3;
+	target_x = x - sign(vel_x) * move_spd_x * 3;
+	target_y = y - sign(vel_y) * move_spd_y * 3;
+}
+
+if(place_meeting(x + vel_x, y + vel_y, object_enemy)){
+	var random_displace_x = random_range(-move_spd_x, move_spd_x);
+	var random_displace_y = random_range(-move_spd_y, move_spd_y);
+	if(place_meeting(x + random_displace_x, y + random_displace_y, object_solid)){
+		x += random_displace_x;
+		y += random_displace_y;
+	}
 }
 
 if(image_xscale == 0){

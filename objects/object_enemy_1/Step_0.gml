@@ -8,18 +8,31 @@ var dt = delta_time / 1000; //ms
 switch(_state){
 	//enemy behavior when state is follow
 	case enemy_0_state.follow:
-		path_start(path_enemy_1, 4, path_action_reverse, 0);
+		image_xscale = sign(path_speed);
+		if(timer > 0) { 
+			timer -= dt;
+		} else if(timer <= 0){
+			path_positionprevious = path_position;
+			timer = 750;
+			if(random_range(0, 3) > 2){
+				path_speedprevious = path_speed;
+				path_speed = 0;
+				_state = enemy_0_state.attack;
+				sprite_index = spr_attack;
+				timer = 100;
+			}
+		}
 	break;
 	case enemy_0_state.attack:
-		vel_x = sign(target_x - x) * dive_spd_x;
-		image_xscale = sign(vel_x);
-		vel_y = sign(target_y - y) * dive_spd_y * clamp(abs(target_y - y), 0, 50)/50;
-		if(abs(target_x - x) < 32 && abs(target_y - y) < 32){
-			target_x = target_x + sign(x - prev_x) * avoid_distance_x;
-			target_y = target_y - 100;
-			timer = 1000;
-			_state = enemy_0_state.follow;
+		if(timer > 0) { 
+			timer -= dt;
+		}else{
+			instance_create_layer(x, y, "Instances", object_enemy_bullet);
 			sprite_index = spr_normal;
+			_state = enemy_0_state.follow;
+			path_position = path_positionprevious;
+			path_speed = path_speedprevious;
+			timer = 1000;
 		}
 	break;
 }
