@@ -27,6 +27,7 @@
     {"id":{"name":"object_player","path":"objects/object_player/object_player.yy",},"order":3,},
     {"id":{"name":"spr_bush","path":"sprites/spr_bush/spr_bush.yy",},"order":11,},
     {"id":{"name":"snd_squirrel_bark","path":"sounds/snd_squirrel_bark/snd_squirrel_bark.yy",},"order":0,},
+    {"id":{"name":"snd_squirrel_cry","path":"sounds/snd_squirrel_cry/snd_squirrel_cry.yy",},"order":1,},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},"order":3,},
     {"id":{"name":"spr_heart","path":"sprites/spr_heart/spr_heart.yy",},"order":6,},
     {"id":{"name":"object_enemy_1","path":"objects/object_enemy_1/object_enemy_1.yy",},"order":8,},
