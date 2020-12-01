@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprite_nuts",
-    "path": "sprites/sprite_nuts/sprite_nuts.yy",
+    "name": "spr_nuts",
+    "path": "sprites/spr_nuts/spr_nuts.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,7 +23,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"object_nut","path":"objects/object_nut/object_nut.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

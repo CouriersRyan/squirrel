@@ -5,6 +5,8 @@ var p_y = player.y;
 var dt = delta_time / 1000; //ms
 //TODO: Implement Delta Time
 
+event_inherited();
+
 switch(_state){
 	//enemy behavior when state is follow
 	case enemy_0_state.follow:

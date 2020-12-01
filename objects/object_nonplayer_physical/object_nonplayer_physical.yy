@@ -4,10 +4,7 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "object_nonplayer_physical",
-    "path": "objects/object_nonplayer_physical/object_nonplayer_physical.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -28,7 +25,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "object_solid",
+  "name": "object_nonplayer_physical",
   "tags": [],
   "resourceType": "GMObject",
 }
