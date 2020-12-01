@@ -10,12 +10,12 @@ var new_y = y + _velY;
 var new_x = x;
 if(dir = 0)
 {
-	new_x+=3;
+	new_x+=5;
 	image_angle -= 15;
 }
 else
 {
-	new_x-=3;
+	new_x-=5;
 	image_angle += 15;
 }
 
