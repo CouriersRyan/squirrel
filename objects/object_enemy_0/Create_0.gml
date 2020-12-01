@@ -12,3 +12,5 @@ player = instance_nearest(x, y, object_player);
 timer = 0;
 
 attack_interval = 4;
+
+ds_list_add(global.enemy_list, self);
