@@ -16,7 +16,6 @@
     {"id":{"name":"spr_bushtwo","path":"sprites/spr_bushtwo/spr_bushtwo.yy",},"order":11,},
     {"id":{"name":"spr_kevin_wall","path":"sprites/spr_kevin_wall/spr_kevin_wall.yy",},"order":16,},
     {"id":{"name":"object_enemy","path":"objects/object_enemy/object_enemy.yy",},"order":5,},
-    {"id":{"name":"rm_ryan","path":"rooms/rm_ryan/rm_ryan.yy",},"order":1,},
     {"id":{"name":"object_test","path":"objects/object_test/object_test.yy",},"order":0,},
     {"id":{"name":"object_enemy_0","path":"objects/object_enemy_0/object_enemy_0.yy",},"order":6,},
     {"id":{"name":"object_heart","path":"objects/object_heart/object_heart.yy",},"order":10,},
@@ -79,7 +78,6 @@
     "children": [],
   },
   "RoomOrder": [
-    {"name":"rm_ryan","path":"rooms/rm_ryan/rm_ryan.yy",},
     {"name":"rm_kevin","path":"rooms/rm_kevin/rm_kevin.yy",},
     {"name":"Room1","path":"rooms/Room1/Room1.yy",},
     {"name":"rm_hansen","path":"rooms/rm_hansen/rm_hansen.yy",},
