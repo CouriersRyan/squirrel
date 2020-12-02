@@ -25,7 +25,7 @@ vsp = vsp + grv;
 
 if (place_meeting(x,y+1,object_floor)) && (key_jump)
 {
-	vsp = -7;
+	vsp = -9;
 	player_action_sound(snd_squirrel_cry);
 }
 
