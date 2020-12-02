@@ -12,7 +12,7 @@ switch(_state){
 	case enemy_0_state.follow:
 		vel_x = sign(target_x - x) * move_spd_x * clamp(abs(target_x - x), 0, 50)/50;
 		vel_y = sign(target_y - y) * move_spd_y * clamp(abs(target_y - y), 0, 50)/50;
-		image_xscale = sign(target_x - x);
+		image_xscale = -sign(target_x - x);
 		if(timer > 0) { 
 			timer -= dt;
 		} else if(timer <= 0){
@@ -31,7 +31,7 @@ switch(_state){
 	break;
 	case enemy_0_state.attack:
 		vel_x = sign(target_x - x) * dive_spd_x * ((500 - clamp(abs(target_y - y), 0, 500))/500);
-		image_xscale = sign(target_x - x);
+		image_xscale = -sign(target_x - x);
 		vel_y = sign(target_y - y) * dive_spd_y * clamp(abs(target_y - y), 0, 50)/50;
 		if(abs(target_x - x) < 32 && abs(target_y - y) < 32){
 			target_x = target_x + sign(x - prev_x) * avoid_distance_x;
