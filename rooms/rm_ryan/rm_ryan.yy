@@ -15,6 +15,7 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"object_health","path":"objects/object_health/object_health.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":32.0,"resourceVersion":"1.0","name":"inst_6CA591D4","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"object_nuts_held","path":"objects/object_nuts_held/object_nuts_held.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":32.0,"resourceVersion":"1.0","name":"inst_330C9EB","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"UI","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"object_floor","path":"objects/object_floor/object_floor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":704.0,"resourceVersion":"1.0","name":"inst_40CA2D06","tags":[],"resourceType":"GMRInstance",},
@@ -71,6 +72,7 @@
     {"name":"inst_2A78243B","path":"rooms/rm_ryan/rm_ryan.yy",},
     {"name":"inst_343299D","path":"rooms/rm_ryan/rm_ryan.yy",},
     {"name":"inst_57AD4577","path":"rooms/rm_ryan/rm_ryan.yy",},
+    {"name":"inst_330C9EB","path":"rooms/rm_ryan/rm_ryan.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
