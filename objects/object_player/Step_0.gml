@@ -34,12 +34,14 @@ if(keyboard_check(vk_space) && !isJump)
 	yspeed = -10;
 	y -= 10;
 	isJump = true;
+	player_action_sound(snd_squirrel_cry);
 }
 
 if(mouse_check_button_pressed(mb_left))
 {
 	if(global.nuts > 0)
 	{
+		player_action_sound(snd_squirrel_bark);
 		if(dir = 1)
 		{
 			newBullet = instance_create_layer(x-10,y,"Instances",object_bullet);
@@ -53,7 +55,6 @@ if(mouse_check_button_pressed(mb_left))
 	}
 	
 }
-
 
 
 
@@ -79,6 +80,13 @@ yspeed += yacc * delta_time / 1000000;
 if (place_meeting(x, y, object_floor)) {
 		yspeed = 0;
 		isJump = false;
+		if(abs(xspeed) > 0){
+			player_walk_sound(true);
+		} else {
+			player_walk_sound(false);
+		}
+} else {
+	player_walk_sound(false);
 }
 
 y += yspeed;
