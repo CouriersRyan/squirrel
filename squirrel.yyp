@@ -7,7 +7,6 @@
     {"id":{"name":"object_roommanager","path":"objects/object_roommanager/object_roommanager.yy",},"order":4,},
     {"id":{"name":"rm_hansen","path":"rooms/rm_hansen/rm_hansen.yy",},"order":2,},
     {"id":{"name":"object_nonplayer_physical","path":"objects/object_nonplayer_physical/object_nonplayer_physical.yy",},"order":14,},
-    {"id":{"name":"fnt_gui","path":"fonts/fnt_gui/fnt_gui.yy",},"order":0,},
     {"id":{"name":"object_enemy_bullet","path":"objects/object_enemy_bullet/object_enemy_bullet.yy",},"order":13,},
     {"id":{"name":"spr_heart2","path":"sprites/spr_heart2/spr_heart2.yy",},"order":6,},
     {"id":{"name":"object_collectible","path":"objects/object_collectible/object_collectible.yy",},"order":11,},
