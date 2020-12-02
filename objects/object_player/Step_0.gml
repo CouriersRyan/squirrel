@@ -8,6 +8,17 @@ key_jump = keyboard_check_pressed(vk_space);
 //Calculate Movement
 var move = key_right - key_left;
 
+show_debug_message(move);
+
+if(image_xscale < 0)
+{
+	dir = 1;
+}
+else
+{
+	dir = 0;
+}
+
 hsp = move * walksp;
 
 vsp = vsp + grv;
