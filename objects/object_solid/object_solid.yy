@@ -4,7 +4,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "object_nonplayer_physical",
+    "path": "objects/object_nonplayer_physical/object_nonplayer_physical.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
