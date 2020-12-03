@@ -25,9 +25,16 @@ vsp = vsp + grv;
 
 if (place_meeting(x,y+1,object_floor)) && (key_jump)
 {
-	vsp = -9;
+	vsp = -12;
 	player_action_sound(snd_squirrel_cry);
 }
+
+if (place_meeting(x,y+1,obj_moving_floor)) && (key_jump)
+{
+	vsp = -12;
+	player_action_sound(snd_squirrel_cry);
+}
+
 
 //Horizontal Collision
 if (place_meeting(x+hsp,y,object_floor))
@@ -38,10 +45,19 @@ if (place_meeting(x+hsp,y,object_floor))
 	}
 	hsp = 0;
 }
+if (place_meeting(x+hsp,y,obj_moving_floor))
+{
+	while (!place_meeting(x+sign(hsp),y,obj_moving_floor))
+	{
+		x = x + sign(hsp);
+	}
+	hsp = 0;
+}
+
 x = x + hsp;
 
 //Vertical Collision
-if (place_meeting(x,y+vsp,object_floor))
+if (place_meeting(x,y+vsp,object_floor) )
 {
 	while (!place_meeting(x,y+sign(vsp),object_floor))
 	{
@@ -49,6 +65,16 @@ if (place_meeting(x,y+vsp,object_floor))
 	}
 	vsp = 0;
 }
+
+if (place_meeting(x,y+vsp,obj_moving_floor) )
+{
+	while (!place_meeting(x,y+sign(vsp),obj_moving_floor))
+	{
+		y = y + sign(vsp);
+	}
+	vsp = 0;
+}
+
 y = y + vsp;
 
 //Animation
@@ -74,6 +100,29 @@ else
 	}
 }
 
+if (!place_meeting(x,y+1,obj_moving_floor))
+{
+	sprite_index = spr_player;
+	image_speed = 0;
+	if (sign(vsp) > 0) image_index = 1; else image_index = 0;
+	player_walk_sound(false);
+}
+else
+{
+	image_speed = 1;
+	if (hsp == 0)
+	{
+		sprite_index = spr_player;
+		player_walk_sound(false);
+	}
+	else
+	{
+		sprite_index = spr_playerwalk;
+		player_walk_sound(true);
+	}
+}
+
+
 if (hsp != 0) image_xscale = sign(hsp);
 
 if(mouse_check_button_pressed(mb_left))
@@ -83,12 +132,12 @@ if(mouse_check_button_pressed(mb_left))
 		player_action_sound(snd_squirrel_bark);
 		if(dir = 1)
 		{
-			newBullet = instance_create_layer(x-10,y,"Instances",object_bullet);
+			newBullet = instance_create_layer(x-10,y-40,"Instances",object_bullet);
 			newBullet.dir = 1;
 		}
 		else
 		{
-			newBullet = instance_create_layer(x+10,y,"Instances",object_bullet);
+			newBullet = instance_create_layer(x+10,y-40,"Instances",object_bullet);
 		}
 		//global.nuts--;
 	}
