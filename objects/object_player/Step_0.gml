@@ -83,12 +83,12 @@ if(mouse_check_button_pressed(mb_left))
 		player_action_sound(snd_squirrel_bark);
 		if(dir = 1)
 		{
-			newBullet = instance_create_layer(x-10,y,"Instances",object_bullet);
+			newBullet = instance_create_layer(x-10,y-40,"Instances",object_bullet);
 			newBullet.dir = 1;
 		}
 		else
 		{
-			newBullet = instance_create_layer(x+10,y,"Instances",object_bullet);
+			newBullet = instance_create_layer(x+10,y-40,"Instances",object_bullet);
 		}
 		global.nuts--;
 	}
