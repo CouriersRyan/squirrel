@@ -90,7 +90,7 @@ if(mouse_check_button_pressed(mb_left))
 		{
 			newBullet = instance_create_layer(x+10,y,"Instances",object_bullet);
 		}
-		global.nuts--;
+		//global.nuts--;
 	}
 	
 }
