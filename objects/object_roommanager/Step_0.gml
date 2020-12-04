@@ -10,3 +10,8 @@ if(!global.active_bird){
 		}
 	}
 }
+
+if(global.player_health == 0)
+{
+	room_goto(GameOver);
+}

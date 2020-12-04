@@ -139,9 +139,27 @@ if(mouse_check_button_pressed(mb_left))
 		{
 			newBullet = instance_create_layer(x+10,y-40,"Instances",object_bullet);
 		}
-		//global.nuts--;
+		global.nuts--;
 	}
 	
+}
+
+if (place_meeting(x, y, object_enemy)) {
+	if(!isHit)
+	{
+		global.player_health--;
+		isHit = true;
+		alarm[0] = 100;
+	}
+}
+
+if (place_meeting(x, y, object_enemy_bullet)) {
+	if(!isHit)
+	{
+		global.player_health--;
+		isHit = true;
+		alarm[0] = 100;
+	}
 }
 /*
 if(xspeed > 1)
