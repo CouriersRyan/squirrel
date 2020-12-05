@@ -82,14 +82,7 @@ if (place_meeting(x,y+vsp,obj_moving_floor) )
 y = y + vsp;
 
 //Animation
-if (!place_meeting(x,y+1,object_floor))
-{
-	sprite_index = spr_player;
-	image_speed = 0;
-	if (sign(vsp) > 0) image_index = 1; else image_index = 0;
-	player_walk_sound(false);
-}
-else
+if (place_meeting(x,y+1,object_floor) || place_meeting(x,y+1,obj_moving_floor))
 {
 	image_speed = 1;
 	if (hsp == 0)
@@ -103,27 +96,12 @@ else
 		player_walk_sound(true);
 	}
 }
-
-if (!place_meeting(x,y+1,obj_moving_floor))
+else
 {
 	sprite_index = spr_player;
 	image_speed = 0;
 	if (sign(vsp) > 0) image_index = 1; else image_index = 0;
 	player_walk_sound(false);
-}
-else
-{
-	image_speed = 1;
-	if (hsp == 0)
-	{
-		sprite_index = spr_player;
-		player_walk_sound(false);
-	}
-	else
-	{
-		sprite_index = spr_playerwalk;
-		player_walk_sound(true);
-	}
 }
 
 
