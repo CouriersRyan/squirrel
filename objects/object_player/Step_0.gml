@@ -161,6 +161,15 @@ if (place_meeting(x, y, object_enemy_bullet)) {
 		alarm[0] = 100;
 	}
 }
+
+if(isHit == true){
+	hit_timer -= delta_time;
+	if(hit_timer <= 0){
+		if(image_alpha == 1) image_alpha = 0;
+		else image_alpha = 1;
+		hit_timer = 100000;
+	}
+}
 /*
 if(xspeed > 1)
 {

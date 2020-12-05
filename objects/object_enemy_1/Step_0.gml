@@ -10,7 +10,7 @@ event_inherited();
 switch(_state){
 	//enemy behavior when state is follow
 	case enemy_0_state.follow:
-		image_xscale = sign(path_speed);
+		image_xscale = -sign(path_speed);
 		if(timer > 0) { 
 			timer -= dt;
 		} else if(timer <= 0){
