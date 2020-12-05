@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_nuts",
-    "path": "sprites/spr_nuts/spr_nuts.yy",
+    "name": "spr_nuts_ui",
+    "path": "sprites/spr_nuts_ui/spr_nuts_ui.yy",
   },
   "solid": false,
   "visible": true,

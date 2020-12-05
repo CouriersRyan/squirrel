@@ -16,4 +16,6 @@ walksp = 4;
 
 isHit = false;
 
+depth = -10;
+
 global.isVerticalLevel = false;

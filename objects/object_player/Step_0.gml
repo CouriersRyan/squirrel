@@ -1,14 +1,18 @@
 /// @description Insert description here
 // You can write your code in this editor
-//Get Player Input
-key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
-key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
-key_jump = keyboard_check_pressed(vk_space);
+if(isActive){
+	//Get Player Input
+	key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
+	key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
+	key_jump = keyboard_check_pressed(vk_space);
+} else {
+	key_left = 0;
+	key_right = 0;
+	key_jump = 0;
+}
 
 //Calculate Movement
 var move = key_right - key_left;
-
-show_debug_message(move);
 
 if(image_xscale < 0)
 {

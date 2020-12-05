@@ -16,6 +16,7 @@ switch(_state){
 		} else if(timer <= 0){
 			timer = 750;
 			if(random_range(0, 3) > 2){
+				prev_spd = path_speed;
 				path_speed = 0;
 				_state = enemy_0_state.attack;
 				sprite_index = spr_attack;
@@ -25,12 +26,14 @@ switch(_state){
 	break;
 	case enemy_0_state.attack:
 		if(timer > 0) { 
+			path_speed = 0;
+			show_debug_message(path_speed);
 			timer -= dt;
 		}else{
 			instance_create_layer(x, y, "Instances", object_enemy_bullet);
 			sprite_index = spr_normal;
 			_state = enemy_0_state.follow;
-			path_speed = 4;
+			path_speed = prev_spd;
 			timer = 1000;
 		}
 	break;
