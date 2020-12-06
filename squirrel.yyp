@@ -16,6 +16,7 @@
     {"id":{"name":"spr_npc1","path":"sprites/spr_npc1/spr_npc1.yy",},"order":9,},
     {"id":{"name":"obj_goal","path":"objects/obj_goal/obj_goal.yy",},"order":27,},
     {"id":{"name":"spr_bushtwo","path":"sprites/spr_bushtwo/spr_bushtwo.yy",},"order":11,},
+    {"id":{"name":"spr_playergoal","path":"sprites/spr_playergoal/spr_playergoal.yy",},"order":24,},
     {"id":{"name":"spr_kevin_wall","path":"sprites/spr_kevin_wall/spr_kevin_wall.yy",},"order":16,},
     {"id":{"name":"object_enemy","path":"objects/object_enemy/object_enemy.yy",},"order":5,},
     {"id":{"name":"object_test","path":"objects/object_test/object_test.yy",},"order":0,},

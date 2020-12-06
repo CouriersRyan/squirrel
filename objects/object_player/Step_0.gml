@@ -82,7 +82,10 @@ if (place_meeting(x,y+vsp,obj_moving_floor) )
 y = y + vsp;
 
 //Animation
-if (place_meeting(x,y+1,object_floor) || place_meeting(x,y+1,obj_moving_floor))
+if(global.isEnd){
+	sprite_index = spr_playergoal;
+	image_speed = 1;
+} else if (place_meeting(x,y+1,object_floor) || place_meeting(x,y+1,obj_moving_floor))
 {
 	image_speed = 1;
 	if (hsp == 0)
@@ -99,8 +102,7 @@ if (place_meeting(x,y+1,object_floor) || place_meeting(x,y+1,obj_moving_floor))
 else
 {
 	sprite_index = spr_player;
-	image_speed = 0;
-	if (sign(vsp) > 0) image_index = 1; else image_index = 0;
+	//if (sign(vsp) > 0) image_index = 1; else image_index = 0;
 	player_walk_sound(false);
 }
 
@@ -152,6 +154,8 @@ if(isHit == true){
 		hit_timer = 100000;
 	}
 }
+
+
 /*
 if(xspeed > 1)
 {
