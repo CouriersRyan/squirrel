@@ -27,7 +27,7 @@ switch(_state){
 	case enemy_0_state.attack:
 		if(timer > 0) { 
 			path_speed = 0;
-			show_debug_message(path_speed);
+			show_debug_message(prev_spd);
 			timer -= dt;
 		}else{
 			instance_create_layer(x, y, "Instances", object_enemy_bullet);
