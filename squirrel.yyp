@@ -56,6 +56,7 @@
     {"id":{"name":"obj_npc1","path":"objects/obj_npc1/obj_npc1.yy",},"order":19,},
     {"id":{"name":"snd_squirrel_bark","path":"sounds/snd_squirrel_bark/snd_squirrel_bark.yy",},"order":0,},
     {"id":{"name":"obj_bush2","path":"objects/obj_bush2/obj_bush2.yy",},"order":21,},
+    {"id":{"name":"obj_roomsTracker","path":"objects/obj_roomsTracker/obj_roomsTracker.yy",},"order":34,},
     {"id":{"name":"snd_squirrel_cry","path":"sounds/snd_squirrel_cry/snd_squirrel_cry.yy",},"order":1,},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},"order":2,},
     {"id":{"name":"spr_kevin_player","path":"sprites/spr_kevin_player/spr_kevin_player.yy",},"order":14,},
