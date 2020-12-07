@@ -105,11 +105,11 @@
     "children": [],
   },
   "RoomOrder": [
+    {"name":"rm_hansen","path":"rooms/rm_hansen/rm_hansen.yy",},
     {"name":"Room1","path":"rooms/Room1/Room1.yy",},
     {"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},
     {"name":"rm_veronica","path":"rooms/rm_veronica/rm_veronica.yy",},
     {"name":"rm_kevin","path":"rooms/rm_kevin/rm_kevin.yy",},
-    {"name":"rm_hansen","path":"rooms/rm_hansen/rm_hansen.yy",},
     {"name":"rm_level_parent","path":"rooms/rm_level_parent/rm_level_parent.yy",},
     {"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},
   ],
