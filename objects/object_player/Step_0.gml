@@ -258,3 +258,8 @@ if(x > room_width)
 {
 	x = 0;
 }*/
+
+if(y > startPos+1000)
+{
+	room_goto(GameOver);
+}

@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+startPos = y;
+
 xspeed = 0;
 yspeed = 0;
 
