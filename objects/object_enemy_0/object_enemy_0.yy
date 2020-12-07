@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_bird",
-    "path": "sprites/spr_bird/spr_bird.yy",
+    "name": "spr_bird2",
+    "path": "sprites/spr_bird2/spr_bird2.yy",
   },
   "solid": false,
   "visible": true,
@@ -42,7 +42,7 @@
     {"varType":0,"value":"10","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"dive_spd_y","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"8","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"dive_spd_x","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"prev_x","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":5,"value":"spr_bird","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[
+    {"varType":5,"value":"spr_bird2","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[
         "GMSprite",
       ],"resourceVersion":"1.0","name":"spr_normal","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":5,"value":"spr_birdattack","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[
