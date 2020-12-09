@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},"order":4,},
+    {"id":{"name":"spr_stone","path":"sprites/spr_stone/spr_stone.yy",},"order":33,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":7,},
     {"id":{"name":"rm_veronica","path":"rooms/rm_veronica/rm_veronica.yy",},"order":3,},
     {"id":{"name":"spr_bird","path":"sprites/spr_bird/spr_bird.yy",},"order":17,},
@@ -70,6 +71,7 @@
     {"id":{"name":"Sprite29","path":"sprites/Sprite29/Sprite29.yy",},"order":28,},
     {"id":{"name":"object_enemy_1","path":"objects/object_enemy_1/object_enemy_1.yy",},"order":8,},
     {"id":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},"order":7,},
+    {"id":{"name":"obj_stone","path":"objects/obj_stone/obj_stone.yy",},"order":35,},
     {"id":{"name":"path_enemy_1","path":"paths/path_enemy_1/path_enemy_1.yy",},"order":0,},
     {"id":{"name":"snd_bird_flap","path":"sounds/snd_bird_flap/snd_bird_flap.yy",},"order":3,},
     {"id":{"name":"object_isHorizontalLevel","path":"objects/object_isHorizontalLevel/object_isHorizontalLevel.yy",},"order":26,},
