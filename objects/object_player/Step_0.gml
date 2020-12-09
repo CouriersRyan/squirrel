@@ -163,6 +163,8 @@ if(isHit == true){
 	}
 }
 
+player_collect();
+
 
 /*
 if(xspeed > 1)
