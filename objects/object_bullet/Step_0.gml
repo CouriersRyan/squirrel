@@ -33,10 +33,5 @@ if(hp <= 0){
 	instance_destroy();
 }
 
-player_buffer -= delta_time / 1000;
-if(place_meeting(x, y, object_player) && player_buffer <= 0 || player_buffer < -10000){
-	instance_destroy();
-}
-
 x = new_x;
 y = new_y;
