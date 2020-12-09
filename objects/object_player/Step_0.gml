@@ -29,13 +29,13 @@ vsp = vsp + grv;
 
 if (place_meeting(x,y+1,object_floor)) && (key_jump)
 {
-	vsp = -12;
+	vsp = -14.4;
 	player_action_sound(snd_squirrel_cry);
 }
 
 if (place_meeting(x,y+1,obj_moving_floor)) && (key_jump)
 {
-	vsp = -12;
+	vsp = -14.4;
 	player_action_sound(snd_squirrel_cry);
 }
 
@@ -109,7 +109,7 @@ else
 
 if (hsp != 0) image_xscale = sign(hsp);
 
-if(mouse_check_button_pressed(mb_left))
+if(keyboard_check_pressed(ord("J")))
 {
 	if(global.nuts > 0)
 	{

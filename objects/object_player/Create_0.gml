@@ -3,17 +3,17 @@
 
 startPos = y;
 
-xspeed = 0;
-yspeed = 0;
+//xspeed = 0;
+//yspeed = 0;
 
-yacc = 10;
+//yacc = 10;
 
-isJump = false;
+//isJump = false;
 dir = 0;
 
 hsp = 0;
 vsp = 0;
-grv = 0.3;
+grv = 0.5;
 walksp = 4;
 
 isHit = false;
