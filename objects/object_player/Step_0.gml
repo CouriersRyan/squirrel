@@ -40,6 +40,7 @@ if (place_meeting(x,y+1,obj_moving_floor)) && (key_jump)
 }
 
 
+
 //Horizontal Collision
 if (place_meeting(x+hsp,y,object_floor))
 {
@@ -48,7 +49,11 @@ if (place_meeting(x+hsp,y,object_floor))
 		x = x + sign(hsp);
 	}
 	hsp = 0;
+	dir *= -1;
 }
+
+
+
 if (place_meeting(x+hsp,y,obj_moving_floor))
 {
 	while (!place_meeting(x+sign(hsp),y,obj_moving_floor))
@@ -56,7 +61,9 @@ if (place_meeting(x+hsp,y,obj_moving_floor))
 		x = x + sign(hsp);
 	}
 	hsp = 0;
+	dir *= -1;
 }
+
 
 x = x + hsp;
 
@@ -69,6 +76,7 @@ if (place_meeting(x,y+vsp,object_floor) )
 	}
 	vsp = 0;
 }
+
 
 if (place_meeting(x,y+vsp,obj_moving_floor) )
 {
