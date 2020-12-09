@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_kevin_wall",
-    "path": "sprites/spr_kevin_wall/spr_kevin_wall.yy",
+    "name": "spr_floor",
+    "path": "sprites/spr_floor/spr_floor.yy",
   },
   "solid": false,
   "visible": true,

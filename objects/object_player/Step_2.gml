@@ -2,6 +2,8 @@
 // You can write your code in this editor
 
 
+/*
+
 function CameraMovement()
 {
 	camera_get_view_x(view_camera[0]) // gets cam x pos
