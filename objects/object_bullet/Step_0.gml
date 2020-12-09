@@ -33,5 +33,11 @@ if(hp <= 0){
 	instance_destroy();
 }
 
+if(player_buffer > 0){
+	player_buffer -= delta_time / 1000
+}else if(place_meeting(x, y, object_player)){
+	instance_destroy();
+}
+
 x = new_x;
 y = new_y;
