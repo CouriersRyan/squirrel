@@ -34,6 +34,7 @@
     {"id":{"name":"enemy_movement","path":"scripts/enemy_movement/enemy_movement.yy",},"order":0,},
     {"id":{"name":"obj_bg","path":"objects/obj_bg/obj_bg.yy",},"order":17,},
     {"id":{"name":"player_action_sound","path":"scripts/player_action_sound/player_action_sound.yy",},"order":3,},
+    {"id":{"name":"spr_movingFloor","path":"sprites/spr_movingFloor/spr_movingFloor.yy",},"order":32,},
     {"id":{"name":"object_health","path":"objects/object_health/object_health.yy",},"order":9,},
     {"id":{"name":"spr_kevin_playerJump","path":"sprites/spr_kevin_playerJump/spr_kevin_playerJump.yy",},"order":15,},
     {"id":{"name":"spr_floor","path":"sprites/spr_floor/spr_floor.yy",},"order":21,},
@@ -106,9 +107,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_hansen","path":"rooms/rm_hansen/rm_hansen.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
+    {"roomId":{"name":"rm_hansen","path":"rooms/rm_hansen/rm_hansen.yy",},},
     {"roomId":{"name":"rm_veronica","path":"rooms/rm_veronica/rm_veronica.yy",},},
     {"roomId":{"name":"rm_kevin","path":"rooms/rm_kevin/rm_kevin.yy",},},
     {"roomId":{"name":"rm_level_parent","path":"rooms/rm_level_parent/rm_level_parent.yy",},},
