@@ -11,6 +11,8 @@ if(isActive){
 	key_jump = 0;
 }
 
+var hsp_final = hsp + hsp_carry;
+hsp_carry = 0;
 //Calculate Movement
 var move = key_right - key_left;
 
@@ -42,30 +44,30 @@ if (place_meeting(x,y+1,obj_moving_floor)) && (key_jump)
 
 
 //Horizontal Collision
-if (place_meeting(x+hsp,y,object_floor))
+if (place_meeting(x+hsp_final,y,object_floor))
 {
-	while (!place_meeting(x+sign(hsp),y,object_floor))
+	while (!place_meeting(x+sign(hsp_final),y,object_floor))
 	{
-		x = x + sign(hsp);
+		x = x + sign(hsp_final);
 	}
-	hsp = 0;
+	hsp_final = 0;
 	dir *= -1;
 }
 
 
 
-if (place_meeting(x+hsp,y,obj_moving_floor))
+if (place_meeting(x+hsp_final,y,obj_moving_floor))
 {
-	while (!place_meeting(x+sign(hsp),y,obj_moving_floor))
+	while (!place_meeting(x+sign(hsp_final),y,obj_moving_floor))
 	{
-		x = x + sign(hsp);
+		x = x + sign(hsp_final);
 	}
-	hsp = 0;
+	hsp_final = 0;
 	dir *= -1;
 }
 
 
-x = x + hsp;
+x = x + hsp_final;
 
 //Vertical Collision
 if (place_meeting(x,y+vsp,object_floor) )
