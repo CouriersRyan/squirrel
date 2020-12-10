@@ -15,3 +15,8 @@ if(global.player_health == 0)
 {
 	room_goto(GameOver);
 }
+
+if room == Room1 && audio_is_playing(snd_BGM1) == false
+{
+      audio_play_sound(snd_BGM1, 1, true);
+}

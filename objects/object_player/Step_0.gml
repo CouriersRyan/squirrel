@@ -82,6 +82,7 @@ if (place_meeting(x,y+vsp,obj_moving_floor) )
 {
 	while (!place_meeting(x,y+sign(vsp),obj_moving_floor))
 	{
+		
 		y = y + sign(vsp);
 	}
 	vsp = 0;

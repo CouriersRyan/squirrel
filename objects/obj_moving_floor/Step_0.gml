@@ -8,13 +8,24 @@ if (movingLeft == false){
 }
 
 
-if (x <= 10 && movingLeft == true){
+if (x <= 100&& movingLeft == true){
 	movingLeft = false;
 }
 
-if (x >= 1366 && movingLeft == false){
+if (x >= 1350 && movingLeft == false){
 	movingLeft = true;
 }
+
+if (place_meeting(x + sprite_width/2, y, object_floor) && movingLeft == false){
+	movingLeft = true;
+}
+
+if (place_meeting(x - sprite_width/2, y, object_floor) && movingLeft == true){
+	movingLeft = false;
+}
+
+
+
 
 /*
 if (place_meeting(x + obj_moving_floor.sprite_width/2+ spd, y, obj_floor)){
@@ -32,11 +43,14 @@ if (place_meeting(x + obj_moving_floor.sprite_width/2+ spd, y, obj_floor)){
 
 //+ object_player.sprite_height
 
-if round (object_player.y < y){
-	mask_index = -1;
-	show_debug_message("it's below!");
 
-}else if round (object_player.y > y){
-	mask_index = obj_moving_floor;
+/*
+if (instance_exists(object_player)){
+	if ( round (object_player.y + (object_player.sprite_height/2)) <y){
+		mask_index = -1;
+	}else {
+		mask_index = spr_movingFloor;
+	}
+
 
 }
