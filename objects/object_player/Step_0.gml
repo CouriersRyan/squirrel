@@ -70,9 +70,9 @@ if (place_meeting(x+hsp_final,y,obj_moving_floor))
 x = x + hsp_final;
 
 //Vertical Collision
-if (place_meeting(x,y+vsp,object_floor) )
+if (place_meeting(x,y+vsp,object_solid) )
 {
-	while (!place_meeting(x,y+sign(vsp),object_floor))
+	if (!place_meeting(x,y+sign(vsp),object_solid))
 	{
 		y = y + sign(vsp);
 	}
@@ -80,15 +80,18 @@ if (place_meeting(x,y+vsp,object_floor) )
 }
 
 
-if (place_meeting(x,y+vsp,obj_moving_floor) )
+/*if (place_meeting(x,y+vsp,obj_moving_floor) )
 {
-	while (!place_meeting(x,y+sign(vsp),obj_moving_floor))
+	if (!place_meeting(x,y+sign(vsp),obj_moving_floor))
 	{
+		y = y + sign(vsp);
+	}
+	var instMF = instance_nearest(x, y, obj_moving_floor)
+	if(!(instMF.bbox_left > bbox_right || instMF.bbox_right < bbox_left)){
 		
-		y = y + sign(vsp);
 	}
 	vsp = 0;
-}
+}*/
 
 y = y + vsp;
 
