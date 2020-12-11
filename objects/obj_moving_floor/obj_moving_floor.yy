@@ -3,7 +3,7 @@
     "name": "spr_movingFloor",
     "path": "sprites/spr_movingFloor/spr_movingFloor.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

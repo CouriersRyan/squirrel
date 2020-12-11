@@ -99,25 +99,29 @@ y = y + vsp;
 if(global.isEnd){
 	sprite_index = spr_playergoal;
 	image_speed = 1;
-} else if (place_meeting(x,y+1,object_floor) || place_meeting(x,y+1,obj_moving_floor))
-{
-	image_speed = 1;
-	if (hsp == 0)
+} else if((sprite_index == spr_playerthrow || sprite_index == spr_playerhurt) && image_index < 4){
+	
+} else {
+	if (place_meeting(x,y+1,object_solid))
 	{
-		sprite_index = spr_player;
-		player_walk_sound(false);
+		image_speed = 1;
+		if (hsp == 0)
+		{
+			sprite_index = spr_player;
+			player_walk_sound(false);
+		}
+		else
+		{
+			sprite_index = spr_playerwalk;
+			player_walk_sound(true);
+		}
 	}
 	else
 	{
-		sprite_index = spr_playerwalk;
-		player_walk_sound(true);
+		sprite_index = spr_playerjump;
+		//if (sign(vsp) > 0) image_index = 1; else image_index = 0;
+		player_walk_sound(false);
 	}
-}
-else
-{
-	sprite_index = spr_player;
-	//if (sign(vsp) > 0) image_index = 1; else image_index = 0;
-	player_walk_sound(false);
 }
 
 
@@ -128,6 +132,7 @@ if(keyboard_check_pressed(ord("J")))
 	if(global.nuts > 0)
 	{
 		player_action_sound(snd_squirrel_bark);
+		sprite_index = spr_playerthrow;
 		if(dir = 1)
 		{
 			newBullet = instance_create_layer(x-10,y-40,"Instances",object_bullet);
@@ -157,6 +162,7 @@ if (place_meeting(x, y, object_enemy_bullet)) {
 		global.player_health--;
 		isHit = true;
 		alarm[0] = 100;
+		sprite_index = spr_playerhurt;
 	}
 }
 
@@ -169,6 +175,7 @@ if(isHit == true){
 	}
 }
 
+player_collect();
 
 /*
 if(xspeed > 1)
