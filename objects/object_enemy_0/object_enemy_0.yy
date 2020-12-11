@@ -30,7 +30,7 @@
   ],
   "properties": [
     {"varType":0,"value":"300","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"avoid_distance_x","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"200","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"avoid_distance_y","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"100","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"avoid_distance_y","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"1200","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"follow_distance_x","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"500","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"follow_distance_y","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"3","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"move_spd_x","tags":[],"resourceType":"GMObjectProperty",},
@@ -48,7 +48,6 @@
     {"varType":5,"value":"spr_birdattack","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[
         "GMSprite",
       ],"resourceVersion":"1.0","name":"spr_attack","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":3,"value":"True","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"active","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {
