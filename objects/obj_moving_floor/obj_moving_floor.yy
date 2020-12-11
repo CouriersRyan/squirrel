@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_floor",
-    "path": "sprites/spr_floor/spr_floor.yy",
+    "name": "spr_movingFloor",
+    "path": "sprites/spr_movingFloor/spr_movingFloor.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "object_solid",
+    "path": "objects/object_solid/object_solid.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,7 +26,6 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_moving_floor","path":"objects/obj_moving_floor/obj_moving_floor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_moving_floor","path":"objects/obj_moving_floor/obj_moving_floor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},"parent":{"name":"obj_moving_floor","path":"objects/obj_moving_floor/obj_moving_floor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"object_player","path":"objects/object_player/object_player.yy",},"parent":{"name":"obj_moving_floor","path":"objects/obj_moving_floor/obj_moving_floor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],

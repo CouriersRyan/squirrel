@@ -24,7 +24,6 @@ if(instanceP){
 	object_bounce(instanceP, _bounce_vel_y);
 	hp--;
 	if(object_is_ancestor(instanceP.object_index, object_enemy)){
-		show_debug_message("Hello");
 		instanceP.hp--;
 	}
 }

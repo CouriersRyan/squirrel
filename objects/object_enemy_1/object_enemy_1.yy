@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite3",
-    "path": "sprites/Sprite3/Sprite3.yy",
+    "name": "spr_bird",
+    "path": "sprites/spr_bird/spr_bird.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,7 +30,10 @@
   "properties": [
     {"varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"prev_spd","tags":[],"resourceType":"GMObjectProperty",},
   ],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"spr_normal","path":"objects/object_enemy_0/object_enemy_0.yy",},"objectId":{"name":"object_enemy_0","path":"objects/object_enemy_0/object_enemy_0.yy",},"value":"spr_bird","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"spr_attack","path":"objects/object_enemy_0/object_enemy_0.yy",},"objectId":{"name":"object_enemy_0","path":"objects/object_enemy_0/object_enemy_0.yy",},"value":"spr_bird","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",

@@ -1,0 +1,1 @@
+BGM = snd_BGM1;
