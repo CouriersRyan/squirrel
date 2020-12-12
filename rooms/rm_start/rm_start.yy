@@ -15,7 +15,7 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_roomsTracker","path":"objects/obj_roomsTracker/obj_roomsTracker.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":4096.0,"resourceVersion":"1.0","name":"inst_1D4BBE3D","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_startscreen","path":"objects/obj_startscreen/obj_startscreen.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":4192.0,"resourceVersion":"1.0","name":"inst_2E1FE716","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_startscreen","path":"objects/obj_startscreen/obj_startscreen.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":4128.0,"resourceVersion":"1.0","name":"inst_401F305F","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"UI","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_tree","path":"objects/obj_tree/obj_tree.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":704.0,"y":3488.0,"resourceVersion":"1.0","name":"inst_20792E0F","tags":[],"resourceType":"GMRInstance",},
@@ -72,7 +72,7 @@
     {"name":"inst_FFFC1FC","path":"rooms/rm_start/rm_start.yy",},
     {"name":"inst_28FF0B53","path":"rooms/rm_start/rm_start.yy",},
     {"name":"inst_1D4BBE3D","path":"rooms/rm_start/rm_start.yy",},
-    {"name":"inst_2E1FE716","path":"rooms/rm_start/rm_start.yy",},
+    {"name":"inst_401F305F","path":"rooms/rm_start/rm_start.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
