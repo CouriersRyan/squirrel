@@ -95,7 +95,6 @@
     {"id":{"name":"object_bounce","path":"scripts/object_bounce/object_bounce.yy",},"order":2,},
     {"id":{"name":"rm_level_parent","path":"rooms/rm_level_parent/rm_level_parent.yy",},"order":5,},
     {"id":{"name":"player_collect","path":"scripts/player_collect/player_collect.yy",},"order":1,},
-    {"id":{"name":"rm_newRoom1","path":"rooms/rm_newRoom1/rm_newRoom1.yy",},"order":8,},
     {"id":{"name":"spr_tree","path":"sprites/spr_tree/spr_tree.yy",},"order":34,},
     {"id":{"name":"spr_playerhurt","path":"sprites/spr_playerhurt/spr_playerhurt.yy",},"order":39,},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":1,},
@@ -126,7 +125,6 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
-    {"roomId":{"name":"rm_newRoom1","path":"rooms/rm_newRoom1/rm_newRoom1.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
     {"roomId":{"name":"rm_hansen","path":"rooms/rm_hansen/rm_hansen.yy",},},
