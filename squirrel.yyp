@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},"order":4,},
+    {"id":{"name":"fnt_title","path":"fonts/fnt_title/fnt_title.yy",},"order":1,},
     {"id":{"name":"spr_stone","path":"sprites/spr_stone/spr_stone.yy",},"order":33,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":7,},
     {"id":{"name":"rm_veronica","path":"rooms/rm_veronica/rm_veronica.yy",},"order":3,},
@@ -58,6 +59,7 @@
     {"id":{"name":"object_bullet","path":"objects/object_bullet/object_bullet.yy",},"order":7,},
     {"id":{"name":"spr_playerwalk","path":"sprites/spr_playerwalk/spr_playerwalk.yy",},"order":8,},
     {"id":{"name":"obj_nuts_held","path":"objects/obj_nuts_held/obj_nuts_held.yy",},"order":17,},
+    {"id":{"name":"obj_startscreen","path":"objects/obj_startscreen/obj_startscreen.yy",},"order":40,},
     {"id":{"name":"object_floor","path":"objects/object_floor/object_floor.yy",},"order":2,},
     {"id":{"name":"spr_bird2","path":"sprites/spr_bird2/spr_bird2.yy",},"order":25,},
     {"id":{"name":"object_player","path":"objects/object_player/object_player.yy",},"order":3,},
@@ -97,6 +99,7 @@
     {"id":{"name":"spr_tree","path":"sprites/spr_tree/spr_tree.yy",},"order":34,},
     {"id":{"name":"spr_playerhurt","path":"sprites/spr_playerhurt/spr_playerhurt.yy",},"order":39,},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":1,},
+    {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},"order":9,},
     {"id":{"name":"obj_cloud","path":"objects/obj_cloud/obj_cloud.yy",},"order":30,},
     {"id":{"name":"sprite3_1","path":"sprites/sprite3_1/sprite3_1.yy",},"order":3,},
     {"id":{"name":"object_isVerticalLevel","path":"objects/object_isVerticalLevel/object_isVerticalLevel.yy",},"order":25,},
@@ -122,6 +125,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"roomId":{"name":"rm_newRoom1","path":"rooms/rm_newRoom1/rm_newRoom1.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
