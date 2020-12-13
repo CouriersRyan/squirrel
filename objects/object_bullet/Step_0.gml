@@ -37,5 +37,7 @@ if(place_meeting(x, y, object_player) && player_buffer <= 0 || player_buffer < -
 	instance_destroy();
 }
 
+
+
 x = new_x;
 y = new_y;

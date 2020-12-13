@@ -11,6 +11,7 @@ if(isActive){
 	key_jump = 0;
 }
 
+
 var hsp_final = hsp + hsp_carry;
 hsp_carry = 0;
 //Calculate Movement
@@ -32,13 +33,15 @@ vsp = vsp + grv;
 if (place_meeting(x,y+1,object_floor)) && (key_jump)
 {
 	vsp = -14.4;
-	player_action_sound(snd_squirrel_cry);
+	//player_action_sound(snd_squirrel_cry);
+	audio_play_sound(snd_jump, 1, false);
 }
 
 if (place_meeting(x,y+1,obj_moving_floor)) && (key_jump)
 {
 	vsp = -14.4;
-	player_action_sound(snd_squirrel_cry);
+	//player_action_sound(snd_squirrel_cry);
+	audio_play_sound(snd_jump, 1, false);
 }
 
 
@@ -151,8 +154,19 @@ if (place_meeting(x, y, object_enemy)) {
 	if(!isHit)
 	{
 		global.player_health--;
+		audio_play_sound(snd_squirrel_cry, 1, false);
 		isHit = true;
 		alarm[0] = 100;
+	}
+}
+
+if (place_meeting(x, y, obj_trap)) {
+	if(!isHit)
+	{
+		global.player_health--;
+		isHit = true;
+		alarm[0] = 100;
+		sprite_index = spr_playerhurt;
 	}
 }
 

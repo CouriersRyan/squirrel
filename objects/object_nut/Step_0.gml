@@ -15,3 +15,10 @@ if(distance_to_object(object_player) > 900 && from_bullet){
 	y = instP.y;
 	x = instP.x;
 }
+
+
+/*
+if (instance_place(x,y, object_player)) && (key_jump)
+{
+	audio_play_sound(snd_nut, 1, false);
+}

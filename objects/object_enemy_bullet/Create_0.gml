@@ -1,0 +1,1 @@
+playerHit = true;

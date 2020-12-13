@@ -1,5 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+global.oldPlayer_health = global.player_health;
+
+
 if(!global.active_bird){
 	audio_stop_sound(snd_bird_flap);
 	for(i = 0; i < ds_list_size(global.enemy_list); i++){
