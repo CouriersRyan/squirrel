@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 var p_x = player.x;
-var p_y = player.y;
+var p_y = player.y - 20;
 var dt = delta_time / 1000; //ms
 //TODO: Implement Delta Time
 

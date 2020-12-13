@@ -1,0 +1,1 @@
+follow_distance_y = 750;
