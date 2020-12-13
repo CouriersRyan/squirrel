@@ -129,11 +129,11 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},},
     {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"roomId":{"name":"rm_hansen","path":"rooms/rm_hansen/rm_hansen.yy",},},
     {"roomId":{"name":"rm_newRoom1","path":"rooms/rm_newRoom1/rm_newRoom1.yy",},},
     {"roomId":{"name":"rm_hansen2","path":"rooms/rm_hansen2/rm_hansen2.yy",},},
+    {"roomId":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
     {"roomId":{"name":"rm_veronica","path":"rooms/rm_veronica/rm_veronica.yy",},},
