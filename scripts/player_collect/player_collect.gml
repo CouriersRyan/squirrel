@@ -5,6 +5,7 @@ function player_collect(){
 	if(inst){
 		global.nuts++;
 		with(inst){
+			audio_play_sound(snd_nut, 1, false);
 			instance_destroy();
 		}
 	}
