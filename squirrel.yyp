@@ -137,8 +137,19 @@
     "name": "Default",
     "children": [],
   },
-  "RoomOrder": [
-    {"name":"newest_room1","path":"rooms/newest_room1/newest_room1.yy",},
+  "RoomOrderNodes": [
+    {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
+    {"roomId":{"name":"rm_hansen","path":"rooms/rm_hansen/rm_hansen.yy",},},
+    {"roomId":{"name":"rm_hansen2","path":"rooms/rm_hansen2/rm_hansen2.yy",},},
+    {"roomId":{"name":"newest_room1","path":"rooms/newest_room1/newest_room1.yy",},},
+    {"roomId":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},},
+    {"roomId":{"name":"rm_veronica","path":"rooms/rm_veronica/rm_veronica.yy",},},
+    {"roomId":{"name":"rm_kevin","path":"rooms/rm_kevin/rm_kevin.yy",},},
+    {"roomId":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
+    {"roomId":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},},
+    {"roomId":{"name":"rm_level_parent","path":"rooms/rm_level_parent/rm_level_parent.yy",},},
+    {"roomId":{"name":"rm_newRoom1","path":"rooms/rm_newRoom1/rm_newRoom1.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -160,13 +171,13 @@
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
   ],
   "TextureGroups": [
-    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"targets":461609314234257646,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
+    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":461609314234257646,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.0.529",
+    "IDEVersion": "2.3.1.536",
   },
-  "resourceVersion": "1.3",
+  "resourceVersion": "1.4",
   "name": "squirrel",
   "tags": [],
   "resourceType": "GMProject",
