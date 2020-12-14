@@ -174,6 +174,7 @@ if (place_meeting(x, y, object_enemy_bullet)) {
 	if(!isHit)
 	{
 		global.player_health--;
+		audio_play_sound(snd_squirrel_cry, 1, false);
 		isHit = true;
 		alarm[0] = 100;
 		sprite_index = spr_playerhurt;

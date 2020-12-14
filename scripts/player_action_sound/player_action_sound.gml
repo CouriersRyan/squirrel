@@ -7,9 +7,9 @@ function player_action_sound(_snd){
 }
 
 function player_walk_sound(_bool){
-	if(!audio_is_playing(snd_squirrel_walk) && _bool){
-		audio_play_sound(snd_squirrel_walk, 3, true);
-	} else if(audio_is_playing(snd_squirrel_walk) && !_bool){
-		audio_stop_sound(snd_squirrel_walk);
+	if(!audio_is_playing(snd_footSteps) && _bool){
+		audio_play_sound(snd_footSteps, 3, true);
+	} else if(audio_is_playing(snd_footSteps) && !_bool){
+		audio_stop_sound(snd_footSteps);
 	}
 }
