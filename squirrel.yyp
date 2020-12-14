@@ -98,6 +98,7 @@
     {"id":{"name":"object_nut","path":"objects/object_nut/object_nut.yy",},"order":12,},
     {"id":{"name":"spr_grass","path":"sprites/spr_grass/spr_grass.yy",},"order":29,},
     {"id":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},"order":18,},
+    {"id":{"name":"Shader1","path":"shaders/Shader1/Shader1.yy",},"order":15,},
     {"id":{"name":"snd_jump","path":"sounds/snd_jump/snd_jump.yy",},"order":7,},
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},"order":10,},
     {"id":{"name":"obj_cameraManager","path":"objects/obj_cameraManager/obj_cameraManager.yy",},"order":22,},
